@@ -1,0 +1,70 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tools", "tools", "{B0C25489-AA40-4EAA-B3C6-98784762CD60}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "project", "project", "{2CA9A0CB-D1E7-4990-AFFE-FD7147EF9726}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "unittest", "unittest", "{28057BF6-767B-46CB-BDEC-41AB9C3711D4}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Calc", "Calc\Calc.vcxproj", "{9DF15217-827E-4334-A4B5-C1BEDA5F8B12}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyString", "MyString\MyString.vcxproj", "{1647525D-0D0F-4B12-8E00-C4A988129044}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "google_test", "google_test\google_test.vcxproj", "{724BF3F3-E958-4353-9DD1-EEF239DBDE2C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyUnitTest", "MyUnitTest\MyUnitTest.vcxproj", "{539AEEF9-B5FD-475C-A599-6A97EB31309E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DF15217-827E-4334-A4B5-C1BEDA5F8B12}.Debug|x64.ActiveCfg = Debug|x64
+		{9DF15217-827E-4334-A4B5-C1BEDA5F8B12}.Debug|x64.Build.0 = Debug|x64
+		{9DF15217-827E-4334-A4B5-C1BEDA5F8B12}.Debug|x86.ActiveCfg = Debug|Win32
+		{9DF15217-827E-4334-A4B5-C1BEDA5F8B12}.Debug|x86.Build.0 = Debug|Win32
+		{9DF15217-827E-4334-A4B5-C1BEDA5F8B12}.Release|x64.ActiveCfg = Release|x64
+		{9DF15217-827E-4334-A4B5-C1BEDA5F8B12}.Release|x64.Build.0 = Release|x64
+		{9DF15217-827E-4334-A4B5-C1BEDA5F8B12}.Release|x86.ActiveCfg = Release|Win32
+		{9DF15217-827E-4334-A4B5-C1BEDA5F8B12}.Release|x86.Build.0 = Release|Win32
+		{1647525D-0D0F-4B12-8E00-C4A988129044}.Debug|x64.ActiveCfg = Debug|x64
+		{1647525D-0D0F-4B12-8E00-C4A988129044}.Debug|x64.Build.0 = Debug|x64
+		{1647525D-0D0F-4B12-8E00-C4A988129044}.Debug|x86.ActiveCfg = Debug|Win32
+		{1647525D-0D0F-4B12-8E00-C4A988129044}.Debug|x86.Build.0 = Debug|Win32
+		{1647525D-0D0F-4B12-8E00-C4A988129044}.Release|x64.ActiveCfg = Release|x64
+		{1647525D-0D0F-4B12-8E00-C4A988129044}.Release|x64.Build.0 = Release|x64
+		{1647525D-0D0F-4B12-8E00-C4A988129044}.Release|x86.ActiveCfg = Release|Win32
+		{1647525D-0D0F-4B12-8E00-C4A988129044}.Release|x86.Build.0 = Release|Win32
+		{724BF3F3-E958-4353-9DD1-EEF239DBDE2C}.Debug|x64.ActiveCfg = Debug|x64
+		{724BF3F3-E958-4353-9DD1-EEF239DBDE2C}.Debug|x64.Build.0 = Debug|x64
+		{724BF3F3-E958-4353-9DD1-EEF239DBDE2C}.Debug|x86.ActiveCfg = Debug|Win32
+		{724BF3F3-E958-4353-9DD1-EEF239DBDE2C}.Debug|x86.Build.0 = Debug|Win32
+		{724BF3F3-E958-4353-9DD1-EEF239DBDE2C}.Release|x64.ActiveCfg = Release|x64
+		{724BF3F3-E958-4353-9DD1-EEF239DBDE2C}.Release|x64.Build.0 = Release|x64
+		{724BF3F3-E958-4353-9DD1-EEF239DBDE2C}.Release|x86.ActiveCfg = Release|Win32
+		{724BF3F3-E958-4353-9DD1-EEF239DBDE2C}.Release|x86.Build.0 = Release|Win32
+		{539AEEF9-B5FD-475C-A599-6A97EB31309E}.Debug|x64.ActiveCfg = Debug|x64
+		{539AEEF9-B5FD-475C-A599-6A97EB31309E}.Debug|x64.Build.0 = Debug|x64
+		{539AEEF9-B5FD-475C-A599-6A97EB31309E}.Debug|x86.ActiveCfg = Debug|Win32
+		{539AEEF9-B5FD-475C-A599-6A97EB31309E}.Debug|x86.Build.0 = Debug|Win32
+		{539AEEF9-B5FD-475C-A599-6A97EB31309E}.Release|x64.ActiveCfg = Release|x64
+		{539AEEF9-B5FD-475C-A599-6A97EB31309E}.Release|x64.Build.0 = Release|x64
+		{539AEEF9-B5FD-475C-A599-6A97EB31309E}.Release|x86.ActiveCfg = Release|Win32
+		{539AEEF9-B5FD-475C-A599-6A97EB31309E}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9DF15217-827E-4334-A4B5-C1BEDA5F8B12} = {2CA9A0CB-D1E7-4990-AFFE-FD7147EF9726}
+		{1647525D-0D0F-4B12-8E00-C4A988129044} = {2CA9A0CB-D1E7-4990-AFFE-FD7147EF9726}
+		{724BF3F3-E958-4353-9DD1-EEF239DBDE2C} = {B0C25489-AA40-4EAA-B3C6-98784762CD60}
+		{539AEEF9-B5FD-475C-A599-6A97EB31309E} = {28057BF6-767B-46CB-BDEC-41AB9C3711D4}
+	EndGlobalSection
+EndGlobal
